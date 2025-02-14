@@ -212,4 +212,7 @@
         .project-h1 {
             width: 100%;
         }
+        .flex-form {
+            flex-direction: column;
+        }
     }

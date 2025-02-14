@@ -442,8 +442,8 @@ footer {
     display: flex;
     flex-direction: column;
   }
-  .navbar-footer {
-    display: inline-block;
+  .navbar-ul {
+    flex-direction: row;
   }
   .tech-intro {
     animation: none;
@@ -460,5 +460,8 @@ footer {
 @media (max-width: 430px) {
   .introduction {
     text-align: center;
+  }
+  .navbar-ul {
+    flex-direction: row;
   }
 }
